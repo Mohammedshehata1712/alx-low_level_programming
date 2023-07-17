@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main -Entry point
  *
- * Description: print alphabet letters in lowercase then in uppercase
+ * Description: print alphabet in lowercase then uppercase
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -19,14 +19,14 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	
+
 	/*print A - Z*/
 	while (CH <= 'Z')
 	{
 		putchar(CH);
-		CH++;
+		CH++
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
