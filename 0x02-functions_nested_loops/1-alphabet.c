@@ -10,6 +10,6 @@ void print_alphabet(void)
 	int ch;
 
 	for (ch = 'a'; c <= 'z'; c++)
-		_putchar(c);
+		_putchar(ch);
 	_putchar('\n');
 }
